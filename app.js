@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const port = 5500;
 
-const mongoUrl = "mongodb://localhost:27017/ExpenseTracker"; 
+const mongoUrl = "mongodb+srv://user:prathi123@cluster0.bdkxp.mongodb.net/ExpenseTracker"; 
 
 mongoose.connect(mongoUrl)
 .then(() => {
